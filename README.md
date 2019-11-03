@@ -8,7 +8,7 @@ This repository is based around GCP, or Google Cloud Platform.
 
 **Make sure to reload after uploading an artwork, there is not yet a way to poll/subscribe to a fully successful write event**.
 
-![ArtCollector example view](docimages/artcollector.png)
+![ArtCollector example view](docimages/artcollector.jpg)
 
 ## What it is
 
