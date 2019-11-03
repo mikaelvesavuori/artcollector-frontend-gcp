@@ -21,8 +21,8 @@ The application itself is not the showcase and contains a few small trivial bugs
 No map for now, sorry, but I have a short description below. The big components are these:
 
 - Frontend (this repo) based on [minimal-useful-react-pwa](https://github.com/mikaelvesavuori/minimal-useful-react-pwa), a PWA starter I've written
-- [Backend API]() which is the GraphQL API that does the CRUD operations you'll find referenced in the frontend
-- [Image labeling service](), an independent micro-service (called from the API) that checks your image URL and sends back labels for it
+- [Backend API](https://github.com/mikaelvesavuori/artcollector-backend-gcp) which is the GraphQL API that does the CRUD operations you'll find referenced in the frontend
+- [Image labeling service](https://github.com/mikaelvesavuori/gcp-ml-image-labeling-service), an independent micro-service (called from the API) that checks your image URL and sends back labels for it
 
 ### Frontend architecture
 
@@ -42,7 +42,7 @@ Want to start working on the frontend? Open up `app.jsx`, that file contains mos
 
 ## Installation
 
-- Clone the [Backend API]() and [Image labeling service](), and deploy them as per their respective instructions
+- Clone the [Backend API](https://github.com/mikaelvesavuori/artcollector-backend-gcp) and [Image labeling service](https://github.com/mikaelvesavuori/gcp-ml-image-labeling-service), and deploy them as per their respective instructions
 - Clone this repo
 - Run `yarn` or `npm install`
 - Run `yarn dev` or `npm run dev`
