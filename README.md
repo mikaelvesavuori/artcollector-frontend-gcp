@@ -12,7 +12,7 @@ This repository is based around GCP, or Google Cloud Platform.
 
 ## What it is
 
-In ArtCollector you log in (right now using Google Firebase Authentication but I will likely add support for an AWS stack and an Azure stack soon) and can then proceed to adding artworks you enjoy to a database of your own references. Note that the authentication is "naive" and that you are required to log in and that the backend will check for the existence of an non-empty parameter, but that the auth is pretty much only client-side in this demo.
+In ArtCollector you log in (right now using Google Firebase Authentication but I will likely add support for an AWS stack and an Azure stack soon) and can then proceed to add artworks you enjoy to a database of your own references. Note that the authentication is "naive" and that you are required to log in and that the backend will check for the existence of an non-empty parameter, but that the auth is pretty much only client-side in this demo.
 
 The application itself is not the showcase and contains a few small trivial bugs, contains no tests, and you should add some additional validation and polish before putting this to production if that's what you really want.
 
