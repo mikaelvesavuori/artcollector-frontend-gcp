@@ -4,6 +4,10 @@
 	"main": "index.js",
 	"description": "Demo app showcasing various serverless technologies",
 	"author": "Mikael Vesavuori",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mikaelvesavuori/artcollector-frontend-gcp.git"
+	},
 	"license": "MIT",
 	"dependencies": {
 		"firebase": "^7.2.3",
